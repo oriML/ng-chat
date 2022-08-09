@@ -1,8 +1,8 @@
 export interface User{
     uid: string;
-    email: string;
-    displayName: string;
-    photoUrl: string;
+    email: string | null;
+    displayName: string | null;
+    photoUrl: string | null;
     
 
 }
